@@ -1,10 +1,21 @@
 * {
     margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; 
 }
 
 #titulo {
     color: #4b0082;
+    font-family: 'Arial', sans-serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
+    margin: 50px 0;
 }
 
 .texto-paragrafo {
@@ -12,16 +23,50 @@
 }
 
 .entradas-usuario {
-    border: 1px solid;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
     width: 50%;
-    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    bottom: 50%;
+    left: 50%;
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.entradas-usuario input, .entradas-usuario button {
+    width: 100%;
+    margin-bottom: 10px; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.entradas-usuario button {
+    background-color: #4b0082;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.entradas-usuario button:hover {
+    background-color: #6a0dad;
 }
 
 .rodape {
     position: fixed;
     width: 100%;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #4b0082;
     padding-top: 10px;
     padding-bottom: 10px;
+    color: #fff;
 }
