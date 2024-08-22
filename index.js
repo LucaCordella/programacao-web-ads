@@ -15,4 +15,7 @@ function submeter() {
 
     let idade = document.getElementById("idade").value;
     console.log(idade);
+
+    let dataNascimento = document.getElementById("dataNascimento").value;
+    console.log(dataNascimento);
 }
