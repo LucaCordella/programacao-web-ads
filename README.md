@@ -1,7 +1,9 @@
 # Programação WEB - ADS
 
-## Alteração feita o vscode online (clicar "ponto" na tela do repositório, te leva para esse vscode online)
+## Repositório da disciplina de Programação WEB - ADS 
 
-## Aleração feita no vscode instalado na máquina
+Projeto: Revisão HTML, CSS e JavaScript (Tela de login) 
 
-Repositório da disciplina de Programação WEB - ADS 
+Alteração feita o vscode online (clicar "ponto" na tela do repositório, te leva para esse vscode online)
+
+Aleração feita no vscode instalado na máquina
